@@ -1,0 +1,42 @@
+﻿<Window x:Class="LeaveRequest.ProvinceForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeaveRequest"
+        mc:Ignorable="d"
+        Title="ProvinceForm" Height="700" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Border Background="CornflowerBlue" HorizontalAlignment="Left" Height="537" Margin="-1,132,0,0" VerticalAlignment="Top" Width="193"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="168" Source="C:\Users\RIZKA\Downloads\Leave Request OK\MII.png" Margin="14,10,0,0"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="203,32,0,0" VerticalAlignment="Top" Width="579" Source="C:\Users\RIZKA\Downloads\Leave Request OK\garis.png"/>
+        <Button x:Name="Home_Btn" Content="Home" Margin="0,145,614,488" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Employee_Btn" Content="Manage Employee" Margin="-1,186,615,453" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Account_Btn" Content="Manage Account" Margin="-1,221,615,412" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Department_Btn" Content="Manage Department" Margin="0,259,614,380" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Job_Btn" Content="Manage Job" Margin="0,294,614,345" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="LeaveAvailable_Btn" Content="Manage Leave Availabe" Margin="0,329,614,310" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Logout_Btn" Content="Logout" Margin="-1,429,615,210" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Border BorderBrush="CornflowerBlue" BorderThickness="1" HorizontalAlignment="Left" Height="337" Margin="320,164,0,0" VerticalAlignment="Top" Width="340">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Province" Margin="-1,-1,-1,305" Background="CornflowerBlue" Foreground="White" FontSize="20" TextAlignment="Center"/>
+        </Border>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="342,212,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" FontSize="13" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="IdProvince_Txt" HorizontalAlignment="Left" Height="23" Margin="454,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="53" IsEnabled="False"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="342,258,0,0" TextWrapping="Wrap" Text="Province Name" VerticalAlignment="Top" FontSize="13" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="ProvinceName_Txt" HorizontalAlignment="Left" Height="23" Margin="454,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+        <Button x:Name="AddProvince_Btn" Content="Add" HorizontalAlignment="Left" Margin="342,299,0,0" VerticalAlignment="Top" Width="65" Background="Black" Foreground="White" Height="25" Click="AddProvince_Btn_Click"/>
+        <Button x:Name="UpdateProvince_Btn" Content="Update" HorizontalAlignment="Left" Margin="454,299,0,0" VerticalAlignment="Top" Width="65" Background="Black" Foreground="White" Height="25" Click="UpdateProvince_Btn_Click"/>
+        <Button x:Name="DeleteProvince_Btn" Content="Delete" HorizontalAlignment="Left" Margin="576,299,0,0" VerticalAlignment="Top" Width="65" Background="Black" Foreground="White" Height="25" Click="DeleteProvince_Btn_Click"/>
+        <DataGrid x:Name="dataGridProvince" HorizontalAlignment="Left" Margin="342,348,0,0" VerticalAlignment="Top" Height="128" Width="299" AutoGenerateColumns="False" SelectedCellsChanged="dataGridProvince_SelectedCellsChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Province" Binding="{Binding Name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+
+    </Grid>
+</Window>

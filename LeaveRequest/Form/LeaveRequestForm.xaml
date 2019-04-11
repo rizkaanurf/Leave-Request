@@ -1,0 +1,31 @@
+﻿<Window x:Class="LeaveRequest.Form.LeaveRequestForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeaveRequest.Form"
+        mc:Ignorable="d"
+        Title="LeaveRequestForm" Height="700" Width="800">
+    <Grid>
+        <Border Background="CornflowerBlue" BorderThickness="1" HorizontalAlignment="Left" Height="537" Margin="-1,132,0,0" VerticalAlignment="Top" Width="193"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="168" Source="C:\Users\RIZKA\Downloads\Leave Request OK\MII.png" Margin="10,10,0,0"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="203,32,0,0" VerticalAlignment="Top" Width="579" Source="C:\Users\RIZKA\Downloads\Leave Request OK\garis.png"/>
+        <Button x:Name="Home_Btn" Content="Home" Margin="0,145,614,488" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Employee_Btn" Content="Manage Employee" Margin="-1,186,615,447" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Account_Btn" Content="Manage Account" Margin="-1,227,615,406" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Department_Btn" Content="Manage Department" Margin="-1,268,615,365" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="Job_Btn" Content="Manage Job" Margin="-1,309,615,324" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Button x:Name="LeaveAvailable_Btn" Content="Manage Leave Availabe" Margin="-1,350,615,289" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black"/>
+        <Button x:Name="Logout_Btn" Content="Logout" Margin="-1,423,615,210" FontSize="15" FontFamily="Segoe UI Semibold" Foreground="White" Background="Black" Height="30"/>
+        <Border BorderBrush="CornflowerBlue" BorderThickness="1" HorizontalAlignment="Left" Height="527" Margin="254,132,0,0" VerticalAlignment="Top" Width="484"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="263,176,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="26" Height="23" FontSize="12" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="IdFormLeaveRequest_Txt" HorizontalAlignment="Left" Height="23" Margin="363,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="263,204,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="75" Height="23" FontSize="12" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="EmployeeName_Txt" HorizontalAlignment="Left" Height="23" Margin="363,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="263,232,0,0" TextWrapping="Wrap" Text="Category Leave" VerticalAlignment="Top" Width="95" Height="20" FontSize="12" FontFamily="Segoe UI Semibold"/>
+        <ComboBox x:Name="CategoryLeave_Cmb" HorizontalAlignment="Left" Margin="363,232,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="263,258,0,0" TextWrapping="Wrap" Text="Start" VerticalAlignment="Top" Width="95" Height="20" FontSize="12" FontFamily="Segoe UI Semibold"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="263,283,0,0" TextWrapping="Wrap" Text="Start" VerticalAlignment="Top" Width="95" Height="20" FontSize="12" FontFamily="Segoe UI Semibold"/>
+
+    </Grid>
+</Window>

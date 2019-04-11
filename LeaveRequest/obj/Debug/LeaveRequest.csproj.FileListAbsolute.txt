@@ -1,0 +1,27 @@
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\LeaveRequest.exe.config
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\LeaveRequest.exe
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\LeaveRequest.pdb
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\EntityFramework.dll
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\MaterialDesignColors.dll
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\EntityFramework.xml
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\MaterialDesignThemes.Wpf.pdb
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\bin\Debug\MaterialDesignThemes.Wpf.xml
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.csprojResolveAssemblyReference.cache
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\App.g.cs
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest_MarkupCompile.cache
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest_MarkupCompile.lref
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.g.resources
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.Properties.Resources.resources
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.csproj.GenerateResource.Cache
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.exe
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.pdb
+c:\users\rizka\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\LeaveRequest.Migrations.addingModelLeaveRequest.resources
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\MainWindow.g.cs
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\ProvinceForm.g.cs
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\MainWindow.baml
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\ProvinceForm.baml
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\Religion Form.g.cs
+C:\Users\RIZKA\documents\visual studio 2015\Projects\LeaveRequest\LeaveRequest\obj\Debug\Form\Religion Form.baml
